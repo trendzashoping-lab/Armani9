@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Armani 官方在线商店 - 奢华内衣系列</title>
+    <title>Armani Original Online Shop - Luxury Lingerie Collection</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -515,7 +515,7 @@
         
         <nav>
             <ul>
-                <li><a href=" ">首页</a ></li>
+                <li><a href=" ">First Page</a ></li>
             </ul>
         </nav>
         
@@ -527,7 +527,7 @@
     
     <!-- 主内容区域 -->
     <div class="container">
-        <h2 class="page-title">Armani 女性内衣系列</h2>
+        <h2 class="page-title">Armani Wonmen's Lingerie Collection</h2>
         
         <div class="products-grid" id="productsGrid">
             <!-- 商品将通过JavaScript动态生成 -->
@@ -537,20 +537,20 @@
     <!-- 购物车侧边栏 -->
     <div class="cart-sidebar" id="cartSidebar">
         <div class="cart-header">
-            <h3 class="cart-title">您的购物车</h3>
+            <h3 class="cart-title">Your Cart</h3>
             <button class="close-cart" id="closeCart">&times;</button>
         </div>
         
         <div class="cart-items" id="cartItems">
             <!-- 购物车项目将动态生成 -->
-            <p class="empty-cart-message" id="emptyCartMsg">您的购物车是空的</p >
+            <p class="empty-cart-message" id="emptyCartMsg">Your Cart Is Empty</p >
         </div>
         
         <div class="cart-total">
-            总计: RM <span id="cartTotal">0.00</span>
+            Total: RM <span id="cartTotal">0.00</span>
         </div>
         
-        <button class="checkout-btn">结算</button>
+        <button class="checkout-btn">Pay</button>
     </div>
     
     <!-- 覆盖层 -->
@@ -561,8 +561,8 @@
         const products = [
             {
                 id: 1,
-                name: "Armani 蕾丝文胸套装",
-                description: "精美蕾丝设计，舒适透气，三件套",
+                name: "Armani Front-Closure Bra",
+                description: "Elegant and convenient front-closure design, offering comfort and easy wear. Perfect for daily use.",
                 price: 823.99,
                 images: [
                     "https://i.postimg.cc/0jKc0fkg/no1.jpg",
@@ -572,8 +572,8 @@
             },
             {
                 id: 2,
-                name: "Armani 无痕内裤",
-                description: "无缝设计，柔软面料，贴身舒适",
+                name: "Armani Lace Lingerie Set",
+                description: "Delicate lace with a feminine touch, soft and breathable, ideal for creating a romantic mood.",
                 price: 999.99,
                 images: [
                     "https://i.postimg.cc/nL8jXG5j/no2.jpg",
@@ -583,8 +583,8 @@
             },
             {
                 id: 3,
-                name: "Armani 丝绸睡袍",
-                description: "100%真丝，奢华质感，优雅设计",
+                name: "Armani Thin Front-Closure Set",
+                description: "Lightweight and seamless design, combines elegance and comfort for all-day wear.",
                 price: 1188.99,
                 images: [
                     "https://i.postimg.cc/DZvzGjcZ/no3.jpg",
@@ -594,8 +594,8 @@
             },
             {
                 id: 4,
-                name: "Armani 聚拢调整型文胸",
-                description: "提升效果，舒适支撑，无钢圈",
+                name: "Armani Light Lace Lingerie",
+                description: "Soft lace with a smooth feel, breathable and stylish, perfect for everyday romance.",
                 price: 1366.99,
                 images: [
                     "https://i.postimg.cc/NjvBTCsc/no4.jpg",
@@ -606,8 +606,8 @@
             },
             {
                 id: 5,
-                name: "Armani 高腰塑形内裤",
-                description: "收腹提臀，舒适无痕，3条装",
+                name: "Armani Strappy Sexy Lingerie",
+                description: "Chic strappy design with a daring look, adding extra charm and confidence.",
                 price: 1388.99,
                 images: [
                     "https://i.postimg.cc/TP7PrjNJ/no5.jpg",
@@ -617,8 +617,8 @@
             },
             {
                 id: 6,
-                name: "Armani 薄款蕾丝文胸",
-                description: "超薄杯垫，透气蕾丝，性感设计",
+                name: "Armani Sexy Double-Strap Lingerie",
+                description: "Double-strap detailing for a unique sexy style, comfortable fit with a modern edge.",
                 price: 1569.99,
                 images: [
                     "https://i.postimg.cc/bJrsMVS5/no6.jpg",
@@ -629,8 +629,8 @@
             },
             {
                 id: 7,
-                name: "Armani 丝质吊带睡裙",
-                description: "顺滑丝质，性感深V领，中长款",
+                name: "Armani V-Style Sexy Lingerie",
+                description: "Bold V-cut style to enhance curves, perfect for adding allure to special moments.",
                 price: 1822.99,
                 images: [
                     "https://i.postimg.cc/PrYz2Njw/no7.jpg",
@@ -640,8 +640,8 @@
             },
             {
                 id: 8,
-                name: "Armani 运动型文胸",
-                description: "高强度支撑，透气快干，运动必备",
+                name: "Armani Leapord Print Sport Bra",
+                description: "Trendy leopard print with high support, combining fashion and function for workouts.",
                 price: 876.99,
                 images: [
                     "https://i.postimg.cc/GhFGvNFP/no8.jpg",
@@ -650,8 +650,8 @@
             },
             {
                 id: 9,
-                name: "Armani 蕾丝丁字裤 5条装",
-                description: "精致蕾丝，舒适腰边，多色可选",
+                name: "Armani Silk Pajama Shorts Set",
+                description: "Luxurious silk fabric, lightweight and smooth, perfect for relaxing nights and sweet dreams",
                 price: 2158.99,
                 images: [
                     "https://i.postimg.cc/020KzSvc/no9.jpg",
@@ -662,8 +662,8 @@
             },
             {
                 id: 10,
-                name: "Armani 无钢圈文胸",
-                description: "零压迫感，柔软杯垫，日常舒适",
+                name: "Armani Light Lace Sleeper Set",
+                description: "Breathable lace sleepwear, soft against skin, creating a romantic and comfortable night.",
                 price: 2319.99,
                 images: [
                     "https://i.postimg.cc/rsFXg7dd/no10.jpg",
@@ -672,8 +672,8 @@
             },
             {
                 id: 11,
-                name: "Armani 丝质短裤睡衣套装",
-                description: "奢华丝质，短裤上衣套装，夏季舒适",
+                name: "Armani Leopard Front-Closure Wireless Bra Set",
+                description: "Stylish leopard print, wireless comfort with easy front closure. Fashion meets function.",
                 price: 1566.99,
                 images: [
                     "https://i.postimg.cc/MH4PRL1J/no11.jpg",
@@ -682,8 +682,8 @@
             },
             {
                 id: 12,
-                name: "Armani 前扣式文胸",
-                description: "便捷前扣，聚拢效果，蕾丝装饰",
+                name: "Armani Wireless Bra",
+                description: "No steel ring, maximum comfort with natural support. Perfect for everyday wear.",
                 price: 419.99,
                 images: [
                     "https://i.postimg.cc/1XwYT9wH/Armani.jpg"
@@ -691,8 +691,8 @@
             },
             {
                 id: 13,
-                name: "Armani 高腰蕾丝内裤",
-                description: "复古高腰，精美蕾丝，舒适贴合",
+                name: "Armani High-Waist Lace Panties",
+                description: "Elegant high-waist design with lace details, shaping and comfortable fit.",
                 price: 289.99,
                 images: [
                     "https://i.postimg.cc/J48T0Cjf/Armani.jpg"
@@ -700,8 +700,8 @@
             },
             {
                 id: 14,
-                name: "Armani 深V领文胸",
-                description: "性感深V，聚拢效果，适合低胸装",
+                name: "Armani Deep V-Neck Bra",
+                description: "Bold V-neck cut enhances cleavage, sexy yet supportive for confident wear.",
                 price: 449.99,
                 images: [
                     "https://i.postimg.cc/mrPjJLGH/Armani-V.webp"
@@ -709,56 +709,63 @@
             },
             {
                 id: 15,
-                name: "Armani 丝质长袍",
-                description: "及踝长款，腰带设计，奢华感十足",
+                name: "Armani Sport Bra",
+                description: "Breathable and flexible fabric, designed for movement and high-impact workouts.",
                 price: 999.99,
-                images: [
-                    "https://i.postimg.cc/43HvwWzv/Armani.webp"
-                ]
-            },
-            {
-                id: 16,
-                name: "Armani 无痕文胸",
-                description: "隐形无痕，贴身舒适，适合紧身衣",
-                price: 389.99,
                 images: [
                     "https://i.postimg.cc/DyfqRvrw/Armani.jpg"
                 ]
             },
             {
-                id: 17,
-                name: "Armani 蕾丝短裤 3条装",
-                description: "精美蕾丝，舒适腰封，多色选择",
-                price: 329.99,
+                id: 16,
+                name: "Armani Lace Sexy Panties",
+                description: "Romantic lace design with soft fabric, lightweight and irresistible.",
+                price: 389.99,
                 images: [
                     "https://i.postimg.cc/wBDy7ZXr/Armani-3.webp"
                 ]
             },
             {
-                id: 18,
-                name: "Armani 睡眠文胸",
-                description: "夜间舒适，无钢圈设计，柔软面料",
-                price: 319.99,
-                images: [
-                    "https://i.postimg.cc/52CjRTRt/Armani.jpg"
-                ]
-            },
-            {
-                id: 19,
-                name: "Armani 丝质吊带衫",
-                description: "顺滑丝质，细肩带，内搭外穿皆宜",
-                price: 459.99,
+                id: 17,
+                name: "Armani Camisole Sleepwear",
+                description: "Simple and elegant camisole sleepwear, soft and lightweight for comfortable nights.",
+                price: 329.99,
                 images: [
                     "https://i.postimg.cc/SsTysfv5/p-Armani.webp"
                 ]
             },
             {
-                id: 20,
-                name: "Armani 蕾丝文胸内裤套装",
-                description: "精美配套套装，蕾丝装饰，性感优雅",
-                price: 599.99,
+                id: 18,
+                name: "Armani Sport Bra & Panties Set",
+                description: "Complete active set with comfort and support, stylish for both fitness and leisure.",
+                price: 319.99,
                 images: [
                     "https://i.postimg.cc/02J8kmdW/Armani.webp"
+                ]
+            },
+            {
+                id: 19,
+                name: "Armani Silk Men's Briefs",
+                description: "Premium silk men’s briefs, soft touch with breathable fabric for daily comfort.",
+                price: 459.99,
+                images: [
+                    "https://i.postimg.cc/Kz41bww8/underwear-1-3.jpg",
+                    "https://i.postimg.cc/WpC9JJG5/underwear1.jpg",
+                    "https://i.postimg.cc/B6yXnNfc/underwear1-1.jpg",
+                    "https://i.postimg.cc/7h2bG7xv/underwear1-2.jpg"
+                ]
+            },
+            {
+                id: 20,
+                name: "Armani Silk Men's Boxer Shorts",
+                description: "Luxury silk boxer shorts, smooth, lightweight, and designed for maximum comfort.",
+                price: 599.99,
+                images: [
+                    "https://i.postimg.cc/jqpXjYT9/boxer.jpg",
+                    "https://i.postimg.cc/Z5cFj9Nt/boxer1.jpg",
+                    "https://i.postimg.cc/VLXFrZLN/boxer1-2.jpg",
+                    "https://i.postimg.cc/XvYKPVKZ/boxer1-3.jpg",
+                    "https://i.postimg.cc/jSK4z6L4/boxer1-4.jpg"
                 ]
             }
         ];
@@ -832,7 +839,7 @@
                         <h3 class="product-name">${product.name}</h3>
                         <p class="product-description">${product.description}</p >
                         <div class="product-price">RM ${product.price.toFixed(2)}</div>
-                        <button class="add-to-cart" data-id="${product.id}">添加到购物车</button>
+                        <button class="add-to-cart" data-id="${product.id}">Add To Cart</button>
                     </div>
                 `;
                 
@@ -945,9 +952,9 @@
             updateCartUI();
             
             // 显示添加反馈
-            e.target.textContent = "已添加!";
+            e.target.textContent = "Add!";
             setTimeout(() => {
-                e.target.textContent = "添加到购物车";
+                e.target.textContent = "Add To Cart";
             }, 1500);
         }
         
